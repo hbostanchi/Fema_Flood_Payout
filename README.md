@@ -1,6 +1,6 @@
 ![1](https://github.com/hbostanchi/Fima_Flod_Payout/blob/master/pic/Screen%20Shot%202020-03-03%20at%202.44.54%20PM.png)
 
-# Fema_Flood_Payout
+# FEMA Flood Payout
 Fema Flood Payout Prediction
 The prediction model proposed helps the user determine the potential Fema payout for their property incase of a flooding.
 
@@ -10,5 +10,29 @@ The data is collected from the Fema website. The data set will cover payouts dat
 
 Using this model, we hope to be able to predict the Fema payout for a user's property provided their zip code, flood zone and year their property was constructed in.
 
+# Machine Learning Model
+
+### Data Pre-processing
+The original data was cleaned up to align useful columns. Refining data types and eleminating null values from the data.
+
+### Feature selection and process of elimination
+-- explaination --
+
+### Train vs Test sets
+-- explaination --
+
+### Choice of model and Pros/Cons
+Since we are predicting the estimated FEMA payouts for property damages, a linear regression model was chosen.
+
+----------------------------------------------------------------------------------------------------------------------------------------
 # Data:
 the data has been stored in amazon s3 bucket https://s3.console.aws.amazon.com/s3/buckets/fimaproject/?region=us-east-2&tab=overview
+
+----------------------------------------------------------------------------------------------------------------------------------------
+# Dashboard:
+The user will input 3 values in order to get an evaluation of their potential payout:
+  - Year their property was built in (yyyy-mm-dd)
+  - Zip code (5 digit numeric value)
+  - Flood zone for their propety
+
+![Fema_Graphics_Rev1](https://github.com/hbostanchi/Fima_Flood_Payout/blob/Wish/Fema_Graphics_Rev1.PNG)
