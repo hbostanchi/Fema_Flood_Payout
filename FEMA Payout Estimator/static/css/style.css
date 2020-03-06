@@ -1,0 +1,16 @@
+body {
+
+    color: #111010;
+  }
+  
+  .jumbotron {
+    background-color: rgb(43, 128, 226);
+    background-image: url("");
+    background-size: 100% 100%;
+    text-align: center;
+  }
+  div {
+    padding-right: 30px;
+    padding-left: 50px;
+  }
+  p.solid {border-style: solid;}
