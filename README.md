@@ -22,7 +22,6 @@ Using this model, we hope to be able to predict the Fema payout for a user's pro
 
 ![](https://github.com/hbostanchi/Fima_Flood_Payout/blob/Halleh/pic/Screen%20Shot%202020-03-06%20at%204.00.37%20PM.png)
 
-![](https://github.com/hbostanchi/Fima_Flood_Payout/blob/Halleh/pic/Screen%20Shot%202020-03-06%20at%204.00.37%20PM.png)
 
 # Machine Learning Model
 
@@ -50,3 +49,5 @@ The user will input 3 values in order to get an evaluation of their potential pa
   - Flood zone for their propety
 
 ![Fema_Graphics_Rev1](https://github.com/hbostanchi/Fima_Flood_Payout/blob/Wish/Fema_Graphics_Rev1.PNG)
+
+![Fema_dashboard](https://github.com/hbostanchi/Fima_Flood_Payout/blob/Halleh/pic/Screen%20Shot%202020-03-06%20at%203.55.29%20PM.png)
