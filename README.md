@@ -22,6 +22,11 @@ Using this model, we hope to be able to predict the Fema payout for a user's pro
 
 ![](https://github.com/hbostanchi/Fima_Flood_Payout/blob/Halleh/pic/Screen%20Shot%202020-03-06%20at%204.00.37%20PM.png)
 
+![](https://github.com/hbostanchi/Fima_Flood_Payout/blob/Halleh/pic/Screen%20Shot%202020-03-06%20at%204.35.03%20PM.png)
+
+![](https://github.com/hbostanchi/Fima_Flood_Payout/blob/Halleh/pic/Screen%20Shot%202020-03-06%20at%204.28.01%20PM.png)
+
+
 
 # Machine Learning Model
 
