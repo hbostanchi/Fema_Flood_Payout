@@ -34,10 +34,15 @@ Using this model, we hope to be able to predict the Fema payout for a user's pro
 The original data was cleaned up to align useful columns. Refining data types and eleminating null values from the data.
 
 ### Feature selection and process of elimination
--- explaination -- (Hamed)
+The features were selected by process of elimination using the coorelation matrix and the effect each feature had on the accuracy score of the linear model. The final result was the following 5 features:
+  - Flood zone (encoded with dummy variables)
+  - Occupancytype  (encoded with dummy variables)
+	- State (encoded with dummies)
+	- Loss month (extracted month from the dateofloss column (encoded with dummy variables)
+  - Propertyage (lossyear - builtyear)
 
 ### Train vs Test sets
--- explaination -- (Wish)
+Using the linear regression model, we used the standard 70/30 split - where 70% of the data was used as train set and 30% of the data was used as test.
 
 ### Choice of model and Pros/Cons
 Since we are predicting the estimated FEMA payouts for property damages, a linear regression model was chosen to best predict paterns and find the line of best fit. The linear regression model helps ----- however it tends to over simplify the problem.
