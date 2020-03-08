@@ -10,21 +10,7 @@ The data is collected from the Fema website. The data set will cover payouts dat
 
 Using this model, we hope to be able to predict the Fema payout for a user's property provided their zip code, flood zone and year their property was constructed in.
 
-# Payout Trends
 
-![](https://github.com/hbostanchi/Fima_Flood_Payout/blob/Halleh/pic/Screen%20Shot%202020-03-06%20at%203.59.13%20PM.png)
-
-![](https://github.com/hbostanchi/Fima_Flood_Payout/blob/Halleh/pic/Screen%20Shot%202020-03-06%20at%203.59.54%20PM.png)
-
-![](https://github.com/hbostanchi/Fima_Flood_Payout/blob/Halleh/pic/Screen%20Shot%202020-03-06%20at%203.59.20%20PM.png)
-
-![](https://github.com/hbostanchi/Fima_Flood_Payout/blob/Halleh/pic/Screen%20Shot%202020-03-06%20at%204.00.09%20PM.png)
-
-![](https://github.com/hbostanchi/Fima_Flood_Payout/blob/Halleh/pic/Screen%20Shot%202020-03-06%20at%204.00.37%20PM.png)
-
-![](https://github.com/hbostanchi/Fima_Flood_Payout/blob/Halleh/pic/Screen%20Shot%202020-03-06%20at%204.35.03%20PM.png)
-
-![](https://github.com/hbostanchi/Fima_Flood_Payout/blob/Halleh/pic/Screen%20Shot%202020-03-06%20at%204.28.01%20PM.png)
 
 
 
