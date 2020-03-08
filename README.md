@@ -10,7 +10,7 @@ The data is collected from the Fema website. The data set will cover payouts dat
 
 Using this model, we hope to be able to predict the Fema payout for a user's property provided their zip code, flood zone and year their property was constructed in.
 
-# Visualization
+# Payout Trends
 
 ![](https://github.com/hbostanchi/Fima_Flood_Payout/blob/Halleh/pic/Screen%20Shot%202020-03-06%20at%203.59.13%20PM.png)
 
@@ -34,13 +34,14 @@ Using this model, we hope to be able to predict the Fema payout for a user's pro
 The original data was cleaned up to align useful columns. Refining data types and eleminating null values from the data.
 
 ### Feature selection and process of elimination
--- explaination --
+-- explaination -- (Hamed)
 
 ### Train vs Test sets
--- explaination --
+-- explaination -- (Wish)
 
 ### Choice of model and Pros/Cons
-Since we are predicting the estimated FEMA payouts for property damages, a linear regression model was chosen.
+Since we are predicting the estimated FEMA payouts for property damages, a linear regression model was chosen to best predict paterns and find the line of best fit. The linear regression model helps ----- however it tends to over simplify the problem.
+Additionally logistical regression was used to predict the likelyhood of getting a payout not.
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 # Data:
