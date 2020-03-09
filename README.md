@@ -53,7 +53,7 @@ Using the linear regression model, we used the standard 70/30 split - where 70% 
 Since we are predicting the estimated FEMA payouts for property damages, a linear regression model was chosen to best predict paterns and find the line of best fit. The linear regression model helps ----- however it tends to over simplify the problem.
 Additionally logistical regression was used to predict the likelyhood of getting a payout not.
 
-## Github Branches 
+# Github Branches 
 The Fema repository contains:
 -	[Master branch] (https://github.com/hbostanchi/Fema_Flood_Payout/tree/master)
 
@@ -67,7 +67,7 @@ The Fema repository contains:
 # Data:
 the data has been stored in amazon s3 bucket https://s3.console.aws.amazon.com/s3/buckets/fimaproject/?region=us-east-2&tab=overview
 
-## Database Integration
+# Database Integration
 -	Store the static data for project on amazon bucket and postgres
 -	Include tables for data
 -	We include connection string using SQLALchemy
@@ -83,4 +83,5 @@ The user will input 3 values in order to get an evaluation of their potential pa
 
 ![Fema_dashboard](https://github.com/hbostanchi/Fema_Flood_Payout/blob/Halleh/pic/Screen%20Shot%202020-03-08%20at%204.11.40%20PM.png)
 
-
+## Presentation
+Google Slides (https://docs.google.com/presentation/d/1fE7-nOoyuoM_UTe4v-I7Vsrvtd1XgjYGy3O17S0AxRw/edit#slide=id.p)
