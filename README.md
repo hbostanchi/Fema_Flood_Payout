@@ -55,12 +55,12 @@ Additionally logistical regression was used to predict the likelyhood of getting
 
 # Github Branches 
 The Fema repository contains:
--	[Master branch] (https://github.com/hbostanchi/Fema_Flood_Payout/tree/master)
+-	[Master branch](https://github.com/hbostanchi/Fema_Flood_Payout/tree/master)
 
  Active branches:
-- Authored by Wish: [ Machine Learning Model] (https://github.com/hbostanchi/Fema_Flood_Payout/tree/Wish)
-- Authored by Hamed:  [Joined Cleaned Data] (https://github.com/hbostanchi/Fema_Flood_Payout/tree/Hamed)
-- Authored by Halleh: [Visualization , Dashboard, Database] (https://github.com/hbostanchi/Fema_Flood_Payout/tree/Halleh)
+- Authored by Wish: [ Machine Learning Model](https://github.com/hbostanchi/Fema_Flood_Payout/tree/Wish)
+- Authored by Hamed:  [Joined Cleaned Data](https://github.com/hbostanchi/Fema_Flood_Payout/tree/Hamed)
+- Authored by Halleh: [Visualization , Dashboard, Database (https://github.com/hbostanchi/Fema_Flood_Payout/tree/Halleh)
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------
@@ -84,4 +84,4 @@ The user will input 3 values in order to get an evaluation of their potential pa
 ![Fema_dashboard](https://github.com/hbostanchi/Fema_Flood_Payout/blob/Halleh/pic/Screen%20Shot%202020-03-08%20at%204.11.40%20PM.png)
 
 ## Presentation
-[Google Slides] (https://docs.google.com/presentation/d/1fE7-nOoyuoM_UTe4v-I7Vsrvtd1XgjYGy3O17S0AxRw/edit#slide=id.p)
+[Google Slides](https://docs.google.com/presentation/d/1fE7-nOoyuoM_UTe4v-I7Vsrvtd1XgjYGy3O17S0AxRw/edit#slide=id.p)
