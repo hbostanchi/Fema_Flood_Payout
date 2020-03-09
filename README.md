@@ -59,8 +59,8 @@ The Fema repository contains:
 
  Active branches:
 - Authored by Wish: [ Machine Learning Model](https://github.com/hbostanchi/Fema_Flood_Payout/tree/Wish)
-- Authored by Hamed:  [Joined Cleaned Data](https://github.com/hbostanchi/Fema_Flood_Payout/tree/Hamed)
-- Authored by Halleh: [Visualization , Dashboard, Database (https://github.com/hbostanchi/Fema_Flood_Payout/tree/Halleh)
+- Authored by Hamed: [Joined Data](https://github.com/hbostanchi/Fema_Flood_Payout/tree/Hamed)
+- Authored by Halleh:[Visualization and Dashboard](https://github.com/hbostanchi/Fema_Flood_Payout/tree/Halleh)
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------
