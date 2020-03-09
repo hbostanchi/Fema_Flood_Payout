@@ -62,3 +62,11 @@ d3.selectAll("#filter-btn").on("click", updateFilters);
 // Build the table when the page loads
 buildTable(tableData);
 
+function CONshowElements(){
+  var img = document.createElement("img");
+  img.setAttribute("src","Seasonal_payout");
+  document.body.appendChild(img);
+  return false;
+}
+document.getElementById("Seasonal_payout").onclick = CONshowElements;
+
