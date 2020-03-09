@@ -28,7 +28,7 @@ Using this model, we hope to be able to predict the Fema payout for a user's pro
  	-  Data Selection
  	-  Data processing
  	-  Data transformation
--	machine Learnign model
+-	Machine Learnign model
 -	Database Integeration
 -	Deploy a Flask app from amazon RDS or postgress
 
