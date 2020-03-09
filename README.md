@@ -81,6 +81,6 @@ The user will input 3 values in order to get an evaluation of their potential pa
 
 ![Fema_Graphics_Rev1](https://github.com/hbostanchi/Fima_Flood_Payout/blob/Wish/Fema_Graphics_Rev1.PNG)
 
-![Fema_dashboard](https://github.com/hbostanchi/Fima_Flood_Payout/blob/Halleh/pic/Screen%20Shot%202020-03-06%20at%203.55.29%20PM.png)
+![Fema_dashboard](https://github.com/hbostanchi/Fema_Flood_Payout/blob/Halleh/pic/Screen%20Shot%202020-03-08%20at%204.11.40%20PM.png)
 
 
