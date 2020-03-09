@@ -5,7 +5,7 @@
 ## Project Overview
 The prediction model proposed helps the user determine the potential Fema payout for their property incase of a flooding.
 
-### reason why topic selected
+### Reason why topic selected
 
 The model also explores climate change . It will help the user get a better understanding of insurance costs and their implications on their property. The model will focus on a US wide coverage as different regions of the country as affected by different types of flooding. For instance the West coast is more prone to flooding through rising sea levels, while Central can face damages due to flash flooding. East cost is also more susceptible to hurricanes.
 
@@ -17,21 +17,20 @@ Using this model, we hope to be able to predict the Fema payout for a user's pro
 
 
 ## Technology 
-•	Software: Jupyter Notebook, SQLAlchemy , Visual Studio Code 
-•	Languages: Python , Javascript, SQL
-•	Dependencies: Pandas, Matplotlib, Scipy, Seaborn
-•	Machine Learning Libraries: scikit-learn ,TensorFlow.
-•	Data Sources:  the data has been stored in amazon s3 bucket 
-(https://s3.console.aws.amazon.com/s3/buckets/fimaproject/?region=us-east-2&tab=overview)
+-	Software: Jupyter Notebook, SQLAlchemy , Visual Studio Code 
+-	Languages: Python , Javascript, SQL
+-	Dependencies: Pandas, Matplotlib, Scipy, Seaborn
+-	Machine Learning Libraries: scikit-learn ,TensorFlow.
+-	Data Sources:  the data has been stored in amazon s3 bucket (https://s3.console.aws.amazon.com/s3/buckets/fimaproject/?region=us-east-2&tab=overview)
 
 ## Summery
- •	Description of the data exploration
- 	+ Data Selection
- 	+ Data processing
- 	+ Data transformation
-•	machine Learnign model
-•	Database Integeration
-•	Deploy a Flask app from amazon RDS or postgress
+-	Description of the data exploration
+ 	-  Data Selection
+ 	-  Data processing
+ 	-  Data transformation
+-	machine Learnign model
+-	Database Integeration
+-	Deploy a Flask app from amazon RDS or postgress
 
 
 # Machine Learning Model
@@ -56,12 +55,12 @@ Additionally logistical regression was used to predict the likelyhood of getting
 
 ## Github Branches 
 The Fema repository contains:
-•	[Master branch] (https://github.com/hbostanchi/Fema_Flood_Payout/tree/master)
+-	[Master branch] (https://github.com/hbostanchi/Fema_Flood_Payout/tree/master)
 
  Active branches:
-•	Authored by Wish: [ Machine Learning Model] (https://github.com/hbostanchi/Fema_Flood_Payout/tree/Wish)
-•	Authored by Hamed:  [Joined Cleaned Data] (https://github.com/hbostanchi/Fema_Flood_Payout/tree/Hamed)
-•	Authored by Halleh: [Visualization , Dashboard, Database] (https://github.com/hbostanchi/Fema_Flood_Payout/tree/Halleh)
+- Authored by Wish: [ Machine Learning Model] (https://github.com/hbostanchi/Fema_Flood_Payout/tree/Wish)
+- Authored by Hamed:  [Joined Cleaned Data] (https://github.com/hbostanchi/Fema_Flood_Payout/tree/Hamed)
+- Authored by Halleh: [Visualization , Dashboard, Database] (https://github.com/hbostanchi/Fema_Flood_Payout/tree/Halleh)
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------
@@ -69,9 +68,9 @@ The Fema repository contains:
 the data has been stored in amazon s3 bucket https://s3.console.aws.amazon.com/s3/buckets/fimaproject/?region=us-east-2&tab=overview
 
 ## Database Integration
-•	Store the static data for project on amazon bucket and postgres
-•	Include tables for data
-•	We include connection string using SQLALchemy
+-	Store the static data for project on amazon bucket and postgres
+-	Include tables for data
+-	We include connection string using SQLALchemy
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 # Dashboard:
