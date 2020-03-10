@@ -43,7 +43,7 @@ if ( Built Year) {
 if (Zip Code ) {
   // Apply `filter` to the table data to only keep the
   // rows where the `datetime` value matches the filter value
-  FilteredData = FilteredData.filter(row => row.city === city);
+  FilteredData = FilteredData.filter(row => row.reportedzipcode === reportedzipcode);
 }
 if (Flood Zone) {
   // Apply `filter` to the table data to only keep the
