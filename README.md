@@ -11,7 +11,6 @@ The data is collected from the Fema website. The data set will cover payouts dat
 Using this model, we hope to be able to predict the Fema payout for a user's property provided their zip code, flood zone and year their property was constructed in.
 
 
-----------------------------------------------------------------------------------------------------------------------------------------
 # Data:
 the data has been stored in amazon s3 bucket https://s3.console.aws.amazon.com/s3/buckets/fimaproject/?region=us-east-2&tab=overview
 
