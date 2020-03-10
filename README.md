@@ -15,13 +15,3 @@ Using this model, we hope to be able to predict the Fema payout for a user's pro
 # Data:
 the data has been stored in amazon s3 bucket https://s3.console.aws.amazon.com/s3/buckets/fimaproject/?region=us-east-2&tab=overview
 
-----------------------------------------------------------------------------------------------------------------------------------------
-# Dashboard:
-The user will input 3 values in order to get an evaluation of their potential payout:
-  - Year their property was built in (yyyy-mm-dd)
-  - Zip code (5 digit numeric value)
-  - Flood zone for their propety
-
-![Fema_Graphics_Rev1](https://github.com/hbostanchi/Fima_Flood_Payout/blob/Wish/Fema_Graphics_Rev1.PNG)
-
-![Fema_dashboard](https://github.com/hbostanchi/Fima_Flood_Payout/blob/Halleh/pic/Screen%20Shot%202020-03-06%20at%203.55.29%20PM.png)
