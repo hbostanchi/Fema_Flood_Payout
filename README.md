@@ -1,6 +1,6 @@
 ![1](https://github.com/hbostanchi/Fima_Flod_Payout/blob/master/pic/Screen%20Shot%202020-03-03%20at%202.44.54%20PM.png)
 
-# Fema Flood Payout
+# FEMA Flood Payout
 Fema Flood Payout Prediction
 The prediction model proposed helps the user determine the potential Fema payout for their property incase of a flooding.
 
