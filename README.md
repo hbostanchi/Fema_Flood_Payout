@@ -13,3 +13,4 @@ Using this model, we hope to be able to predict the Fema payout for a user's pro
 
 # Data:
 the data has been stored in amazon s3 bucket https://s3.console.aws.amazon.com/s3/buckets/fimaproject/?region=us-east-2&tab=overview
+
