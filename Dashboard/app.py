@@ -12,10 +12,11 @@ model=pickle.load(open("model.pkl", "rb"))
 # mongo = PyMongo(app)
 
 # # Define the route for the HTML page
-# @app.route("/")
-# def index():
-#     mars = mongo.db.mars.find_one()
-#     return render_template("index.html", mars=mars)
+@app.route("/")
+def index():
+    #mars = mongo.db.mars.find_one()
+
+    return render_template("index.html")#, mars=mars)
 
 
 
