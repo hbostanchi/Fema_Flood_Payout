@@ -14,3 +14,9 @@ body {
     padding-left: 50px;
   }
   p.solid {border-style: solid;}
+
+  #mapid{
+    width:500px;
+    height:250px;
+
+  }
