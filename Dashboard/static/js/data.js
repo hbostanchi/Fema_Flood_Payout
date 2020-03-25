@@ -1,4 +1,4 @@
-var data = [
+var data, circleData = [
   {
     "latitude": 26.6,
     "longitude": -80.1,
