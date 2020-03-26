@@ -75,9 +75,10 @@ let streets = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/streets-v11/t
   };
   
   // Create the earthquake and tectonic plate layers for our map.
-  let earthquakes = new L.layerGroup();
-  let plates = new L.layerGroup();
-  
+  // let earthquakes = new L.layerGroup(); 
+  // let plates = new L.layerGroup();
+  let payout = new L.layerGroup();
+
   var heat = L.heatLayer(
     data.features.map(feature=>{
       //TODO: add a weight value (here I used hard-coded 1; )
@@ -93,10 +94,11 @@ let streets = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/streets-v11/t
 
   // We define an overlay that contains the overlays. This overlay will be visible all the time.
   let overlays = {
-      Earthquakes: earthquakes, // TODO: change variables to reflect "payout"
-      Plates: plates, // TODO: remove
+      // Earthquakes: earthquakes, // TODO: change variables to reflect "payout"
+      Payout: payout ,
+      // Plates: plates, // TODO: remove
       Heat: heat //TODO: change variables to reflect "precipitation"
-
+      
   };
   
   // Create the map object with a center and zoom level.
@@ -112,7 +114,7 @@ let streets = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/streets-v11/t
   console.log(circleData)
   circleData.forEach(function (report) {
     L.circleMarker([report.latitude, report.longitude], 
-      {'radius': report.amountpaidonbuildingclaim/20000}).addTo(map)
+      {'radius': report.amountpaidonbuildingclaim/30000}).addTo(map)
       .bindPopup("Amount Paid: " + report.amountpaidonbuildingclaim + " <br> ZipCode: " + report.reportedzipcode)
   })
   
@@ -128,7 +130,7 @@ let streets = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/streets-v11/t
       // Then add all the details for the legend.
       legend.onAdd = function() {
           let div = L.DomUtil.create("div", "info legend");
-          const magnitudes = [0, 1, 2, 3, 4, 5];
+          // const magnitudes = [0, 1, 2, 3, 4, 5];
           const colors = [
               "#98ee00",
               "#d4ee00",
