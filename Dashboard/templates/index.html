@@ -49,26 +49,23 @@
                         <li>
                             <label for="floodzone">Flood Zone</label>
                             <input type="text" placeholder="X" id="floodzone" name="floodzone" value="{{ request.form['floodzone'] }}" required/>
-                             </li>
-                             <li>
-                                <label for="occupancytype">Occupancy Type</label>
+                            
+                        </li>
+                            <li>
+                                <label for="occupancytype">Occupancy</label>
                                 <input type="text" placeholder="1" id="occupancytype" name="occupancytype" />
-                                 </li>
-                             <li>
+                                <br>
+                            </li>
+                            <li>
                                 <li>
                                     <label for="state">state</label>
                                     <input type="text" placeholder="CA" id="state" name="state" value="{{ request.form['state'] }}" required/>
-                                     </li>
-                                 <li>
-                            <!-- floodzone=request.form["floodzone"]
-                            occupancytype=request.form["occupancytype"]
-                            state=request.form["state"]
-                            zipcode=request.form["zipcode"]
-                            Lossmonth=request.form["Lossmonth"]
-                            built=request.form["datetime"]    -->
+                            </li>
+                                <li>
+
                             <li>
-                            <label for="zipcode"> Zip Code</label>
-                            <input type="text" placeholder="77079" id="zipcode" name="zipcode" value="{{ request.form['zipcode'] }} " required/>
+                                <label for="zipcode"> Zip Code</label>
+                                <input type="text" placeholder="77079" id="zipcode" name="zipcode" value="{{ request.form['zipcode'] }} " required/>
                             </li>
 
                             <label for="Lossmonth">Loss Month</label>
@@ -78,7 +75,6 @@
                             <label for="date">Built Year</label>
                             <input type="text" placeholder="2010" id="datetime" name="datetime" value="{{ request.form['datetime'] }}" required/>
                             </li>
-
 
                             </li>
                             <input type="submit" value="Submit" me>
@@ -107,7 +103,8 @@
         <!-- </div>
          <a href=><div class="firstbox" id="Seasonal_payout" onmouseover="CONshowElements(); return false; " >Seasonal Payout</div></a>
          <img src="static/images/Seasonal_payout.png" height="400px"> -->
-    
+         <div id="mapid">
+        </div>
     </div>
         </div>
     </div>
@@ -115,7 +112,7 @@
     <!-- <script src="static/js/data.js"></script> -->
     <!-- <script src="static/js/prediction.js"></script> -->
     <!-- <script src="static/js/app.js"></script> -->
-
+    
 </body>
 
 </html>
