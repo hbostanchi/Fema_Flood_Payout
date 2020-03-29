@@ -39,10 +39,8 @@ Using this model, we hope to be able to predict the Fema payout for a user's pro
 ## Visualization:
 - Seasonal payout to see if there was a relationship between payouts and certain months
 ![Seasonal payout](https://github.com/hbostanchi/Fema_Flood_Payout/blob/master/pic/Screen%20Shot%202020-03-06%20at%203.59.13%20PM.png)
-- montly average payout for past 30 year data
-![montly payout](https://github.com/hbostanchi/Fema_Flood_Payout/blob/master/pic/Screen%20Shot%202020-03-06%20at%203.59.20%20PM.png)
 - USA map that shows areas that did receive a payout (size of the payout dot would be the magnitude relative to all the other dots)
-![dot map](https://github.com/hbostanchi/Fema_Flood_Payout/blob/master/pic/Screen%20Shot%202020-03-06%20at%204.35.03%20PM.png)
+
 
 
 
