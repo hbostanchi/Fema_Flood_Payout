@@ -39,6 +39,7 @@ Using this model, we hope to be able to predict the Fema payout for a user's pro
 ## Visualization:
 -Seasonal payout to see if there was a relationship between payouts and certain months
 ![Seasonal payout](https://github.com/hbostanchi/Fema_Flood_Payout/blob/master/pic/Screen%20Shot%202020-03-06%20at%203.59.13%20PM.png)
+- montly average payout for past 30 year data
 ![montly payout](https://github.com/hbostanchi/Fema_Flood_Payout/blob/master/pic/Screen%20Shot%202020-03-06%20at%203.59.20%20PM.png)
 -USA map that shows areas that did receive a payout (size of the payout dot would be the magnitude relative to all the other dots)
 ![dot map](https://github.com/hbostanchi/Fema_Flood_Payout/blob/master/pic/Screen%20Shot%202020-03-06%20at%204.35.03%20PM.png)
@@ -111,7 +112,7 @@ The user will input 6 values in order to get an evaluation of their potential pa
   - Year their property was built in (yyyy-mm-dd)
   
   ## Payout Density Map: 
-  is a Circle map that shows the amount payout divided by $20000 and it has a popup for each payment.
+  Circle map that shows the amount payout divided by $20000 and it has a popup for each payment.
   ![payoutmap](https://github.com/hbostanchi/Fema_Flood_Payout/blob/master/pic/Screen%20Shot%202020-03-25%20at%206.02.02%20PM.png)
   ## Heat map: 
   used the parcipitation and there is a drop down botton for user to choose seaing it or not.
@@ -120,7 +121,6 @@ The user will input 6 values in order to get an evaluation of their potential pa
   
   
 
-![Fema_Graphics_Rev1](https://github.com/hbostanchi/Fima_Flood_Payout/blob/Wish/Fema_Graphics_Rev1.PNG)
 
 The current dashboard is running localy as the image and will run on Flask later.
 
