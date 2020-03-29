@@ -53,6 +53,20 @@ Using the linear regression model, we used the standard 70/30 split - where 70% 
 Since we are predicting the estimated FEMA payouts for property damages, a linear regression model was chosen to best predict paterns and find the line of best fit. The linear regression model helps ----- however it tends to over simplify the problem.
 Additionally logistical regression was used to predict the likelyhood of getting a payout not.
 
+## Nural Network Model
+we also work with Nueral Network Model in [Jupyter Notebook](https://github.com/hbostanchi/Fema_Flood_Payout/blob/master/model_tests/Nueral%20Network%20model.ipynb) 
++ Used Sklearn and Keras
++ Linear regression
+one hidden layers was used as the second one increased the loss
+kernel_initializer:Normal
+Activation functions: Relu
+loss:calculated by mean squared error
+Optimizer: adam
+Output layer was left with default settings
+
+as a result the loss amount was hight and it would not be a good model to be used but as room for improvment it is possible to use time delay Nueral Network as the model is time series and might give us better rusult.
+
+
 # Github Branches 
 The Fema repository contains:
 -	[Master branch](https://github.com/hbostanchi/Fema_Flood_Payout/tree/master)
@@ -72,20 +86,29 @@ the data has been stored in [amazon s3 bucket](https://s3.console.aws.amazon.com
 -	Include tables for data
 -	We include connection string using SQLALchemy
 
-  we used the SQLALchemy connection for the local conection to postgres and we will build on the connection to Amazon RDS later.
+  we used the SQLALchemy connection for the local conection to postgres and build on the connection to Amazon RDS and the data has transfred by a for loop and 1000 by 1000 that the make it easier to transfer.there is the tables joined on [postgres](https://github.com/hbostanchi/Fema_Flood_Payout/blob/master/data_processing/Quaries/merge_clean.sql)
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 # Dashboard:
-The user will input 3 values in order to get an evaluation of their potential payout:
-  - Year their property was built in (yyyy-mm-dd)
-  - Zip code (5 digit numeric value)
+The user will input 6 values in order to get an evaluation of their potential payout using Flask:
+  
   - Flood zone for their propety
+  - Occupancy Type
+  - State
+  - Loss Month (yyyy-mm-dd)
+  - Year their property was built in (yyyy-mm-dd)
+  
+  ##Payout Density Map: is a Circle map that shows the amount payout divided by $20000 and it has a popup for each payment.
+  ##Heat map: used the parcipitation and there is a drop down botton for user to choose seaing it or not.
+  the mapping code could be found under the app.js file and index1.html.
+  
+  
 
 ![Fema_Graphics_Rev1](https://github.com/hbostanchi/Fima_Flood_Payout/blob/Wish/Fema_Graphics_Rev1.PNG)
 
 The current dashboard is running localy as the image and will run on Flask later.
 
-![Fema_dashboard](https://github.com/hbostanchi/Fema_Flood_Payout/blob/Halleh/pic/Screen%20Shot%202020-03-08%20at%204.11.40%20PM.png)
+![Fema_dashboard](https://github.com/hbostanchi/Fema_Flood_Payout/blob/master/pic/Screen%20Shot%202020-03-29%20at%202.16.39%20PM.png)
 
 ## Presentation
 [Google Slides](https://docs.google.com/presentation/d/1fE7-nOoyuoM_UTe4v-I7Vsrvtd1XgjYGy3O17S0AxRw/edit#slide=id.p)
