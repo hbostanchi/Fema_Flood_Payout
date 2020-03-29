@@ -57,12 +57,12 @@ Additionally logistical regression was used to predict the likelyhood of getting
 we also work with Nueral Network Model in [Jupyter Notebook](https://github.com/hbostanchi/Fema_Flood_Payout/blob/master/model_tests/Nueral%20Network%20model.ipynb) 
 + Used Sklearn and Keras
 + Linear regression
-one hidden layers was used as the second one increased the loss
-kernel_initializer:Normal
-Activation functions: Relu
-loss:calculated by mean squared error
-Optimizer: adam
-Output layer was left with default settings
+- one hidden layers was used as the second one increased the loss
+- kernel_initializer:Normal
+- Activation functions: Relu
+- loss:calculated by mean squared error
+- Optimizer: adam
+- Output layer was left with default settings
 
 as a result the loss amount was hight and it would not be a good model to be used but as room for improvment it is possible to use time delay Nueral Network as the model is time series and might give us better rusult.
 
