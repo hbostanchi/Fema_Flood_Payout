@@ -85,12 +85,9 @@ let streets = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/streets-v11/t
       var intensity_multiplier = 10;
       return feature.geometry.coordinates.reverse().concat([1*intensity_multiplier]); //feature.properties.precipitation]);
     })
-    //[
-    //[50.5, 30.5, 0.2], // lat, lng, intensity
-    //[50.6, 30.4, 0.5],
-  
-  //]
   , {radius: 25})
+
+
 
   // We define an overlay that contains the overlays. This overlay will be visible all the time.
   let overlays = {
@@ -117,37 +114,34 @@ let streets = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/streets-v11/t
       {'radius': report.amountpaidonbuildingclaim/30000}).addTo(map)
       .bindPopup("Amount Paid: " + report.amountpaidonbuildingclaim + " <br> ZipCode: " + report.reportedzipcode)
   })
-  
-  
-      // Then we add the earthquake layer to our map.
-      // earthquakes.addTo(map);
       heat.addTo(map);
+      
   
       // Create a legend control object.
       let legend = L.control({
           position: "bottomright"
       });
       // Then add all the details for the legend.
-      legend.onAdd = function() {
-          let div = L.DomUtil.create("div", "info legend");
-          // const magnitudes = [0, 1, 2, 3, 4, 5];
-          const colors = [
-              "#98ee00",
-              "#d4ee00",
-              "#eecc00",
-              "#ee9c00",
-              "#ea822c",
-              "#ea2c2c"
-          ];
+      // legend.onAdd = function() {
+      //     let div = L.DomUtil.create("div", "info legend");
+      //     const magnitudes = [0, 1, 2, 3, 4, 5];
+      //     const colors = [
+      //         "#98ee00",
+      //         "#d4ee00",
+      //         "#eecc00",
+      //         "#ee9c00",
+      //         "#ea822c",
+      //         "#ea2c2c"
+      //     ];
           // Looping through our intervals to generate a label with a colored square for each interval.
-          for (var i = 0; i < magnitudes.length; i++) {
-              console.log(colors[i]);
-              div.innerHTML +=
-                  '<i style="background: ' + colors[i] + '"></i> ' + magnitudes[i] + (magnitudes[i+1] ? '&ndash;' + magnitudes[i+1] + '<br>' : '+');
-          }
-          return div;
-      };
-      legend.addTo(map);
+      //     for (var i = 0; i < magnitudes.length; i++) {
+      //         console.log(colors[i]);
+      //         div.innerHTML +=
+      //             '<i style="background: ' + colors[i] + '"></i> ' + magnitudes[i] + (magnitudes[i+1] ? '&ndash;' + magnitudes[i+1] + '<br>' : '+');
+      //     }
+      //     return div;
+      // };
+      // legend.addTo(map);
   // });
   
   // Create a style for the plate lines.

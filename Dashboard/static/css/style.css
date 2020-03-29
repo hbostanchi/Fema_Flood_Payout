@@ -17,14 +17,14 @@ body {
   }
   p.solid {border-style: solid;}
 
-  /* #mapid{
-    width:500px;
-    height:250px; */
-  #mapid {
-  width: 80%;
-  height: 80%;
+  #mapid{
+    width:700px;
+    height:400px;
+  /* #mapid {
+  width: 200%;
+  height: 200%;
   padding:100px;
-  margin:10px;
+  margin:10px; */
 
   }
 
