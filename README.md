@@ -55,8 +55,8 @@ Additionally logistical regression was used to predict the likelyhood of getting
 
 ## Nural Network Model
 we also work with Nueral Network Model in [Jupyter Notebook](https://github.com/hbostanchi/Fema_Flood_Payout/blob/master/model_tests/Nueral%20Network%20model.ipynb) 
-+ Used Sklearn and Keras
-+ Linear regression
+- Used Sklearn and Keras
+- binary classification model
 - one hidden layers was used as the second one increased the loss
 - kernel_initializer:Normal
 - Activation functions: Relu
