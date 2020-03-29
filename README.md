@@ -17,11 +17,11 @@ Using this model, we hope to be able to predict the Fema payout for a user's pro
 
 
 ## Technology 
--	Software: Jupyter Notebook, SQLAlchemy , Visual Studio Code 
+-	Software: Jupyter Notebook, SQLAlchemy , Visual Studio Code ,Flask
 -	Languages: Python , Javascript, SQL
 -	Dependencies: Pandas, Matplotlib, Scipy, Seaborn
 -	Machine Learning Libraries: scikit-learn ,TensorFlow.
--	Data Sources:  the data has been stored in amazon s3 bucket (https://s3.console.aws.amazon.com/s3/buckets/fimaproject/?region=us-east-2&tab=overview)
+-	Data Sources:  the data has been stored in amazon RDS from postgres and s3 bucket (https://s3.console.aws.amazon.com/s3/buckets/fimaproject/?region=us-east-2&tab=overview)
 
 ## Summery
 -	Description of the data exploration
