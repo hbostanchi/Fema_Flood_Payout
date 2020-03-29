@@ -14,6 +14,10 @@ The data is collected from the Fema website. The data set will cover payouts dat
 ### Question the team hope to answer
 
 Using this model, we hope to be able to predict the Fema payout for a user's property provided their zip code, flood zone and year their property was constructed in.
+- Precipitation values affected payouts [merged NASA data with FEMA]
+- Predict if user is eligible for a payout
+- Predict payout range based on property age, location and flood zone
+
 
 
 ## Technology 
@@ -31,6 +35,14 @@ Using this model, we hope to be able to predict the Fema payout for a user's pro
 -	Machine Learnign model
 -	Database Integeration
 -	Deploy a Flask app from amazon RDS or postgress
+
+## Visualization:
+-Seasonal payout to see if there was a relationship between payouts and certain months
+![Seasonal payout](https://github.com/hbostanchi/Fema_Flood_Payout/blob/master/pic/Screen%20Shot%202020-03-06%20at%203.59.13%20PM.png)
+![montly payout](https://github.com/hbostanchi/Fema_Flood_Payout/blob/master/pic/Screen%20Shot%202020-03-06%20at%203.59.20%20PM.png)
+-USA map that shows areas that did receive a payout (size of the payout dot would be the magnitude relative to all the other dots)
+![dot map](https://github.com/hbostanchi/Fema_Flood_Payout/blob/master/pic/Screen%20Shot%202020-03-06%20at%204.35.03%20PM.png)
+
 
 
 # Machine Learning Model
@@ -100,11 +112,11 @@ The user will input 6 values in order to get an evaluation of their potential pa
   
   ## Payout Density Map: 
   is a Circle map that shows the amount payout divided by $20000 and it has a popup for each payment.
-  (https://github.com/hbostanchi/Fema_Flood_Payout/blob/master/pic/Screen%20Shot%202020-03-25%20at%206.02.02%20PM.png)
+  ![payoutmap](https://github.com/hbostanchi/Fema_Flood_Payout/blob/master/pic/Screen%20Shot%202020-03-25%20at%206.02.02%20PM.png)
   ## Heat map: 
   used the parcipitation and there is a drop down botton for user to choose seaing it or not.
   the mapping code could be found under the app.js file and index1.html.
-  (https://github.com/hbostanchi/Fema_Flood_Payout/blob/master/pic/Screen%20Shot%202020-03-24%20at%207.30.18%20PM.png)
+  ![heatmap](https://github.com/hbostanchi/Fema_Flood_Payout/blob/master/pic/Screen%20Shot%202020-03-24%20at%207.30.18%20PM.png)
   
   
 
