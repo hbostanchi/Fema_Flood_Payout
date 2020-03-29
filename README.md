@@ -98,9 +98,13 @@ The user will input 6 values in order to get an evaluation of their potential pa
   - Loss Month (yyyy-mm-dd)
   - Year their property was built in (yyyy-mm-dd)
   
-  ## Payout Density Map: is a Circle map that shows the amount payout divided by $20000 and it has a popup for each payment.
-  ## Heat map: used the parcipitation and there is a drop down botton for user to choose seaing it or not.
+  ## Payout Density Map: 
+  is a Circle map that shows the amount payout divided by $20000 and it has a popup for each payment.
+  (https://github.com/hbostanchi/Fema_Flood_Payout/blob/master/pic/Screen%20Shot%202020-03-25%20at%206.02.02%20PM.png)
+  ## Heat map: 
+  used the parcipitation and there is a drop down botton for user to choose seaing it or not.
   the mapping code could be found under the app.js file and index1.html.
+  (https://github.com/hbostanchi/Fema_Flood_Payout/blob/master/pic/Screen%20Shot%202020-03-24%20at%207.30.18%20PM.png)
   
   
 
