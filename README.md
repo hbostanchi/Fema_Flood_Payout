@@ -77,6 +77,8 @@ we also work with Nueral Network Model in [Jupyter Notebook](https://github.com/
 
 as a result the loss amount was hight and it would not be a good model to be used but as room for improvment it is possible to use time delay Nueral Network as the model is time series and might give us better rusult.
 
+### The chosen model has been [pickeled](https://docs.python.org/3/library/pickle.html) to use for Flask deploynment.
+
 
 # Github Branches 
 The Fema repository contains:
