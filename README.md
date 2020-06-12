@@ -123,7 +123,8 @@ The user will input 6 values in order to get an evaluation of their potential pa
 
 
 The current dashboard is running localy as the image and will run on Flask later.
-[Live Demo] (https://hbostanchi.github.io/Fema_Flood_Payout/)
+
+## View [Live Demo] (https://hbostanchi.github.io/Fema_Flood_Payout/)
 
 ## Presentation
 [Google Slides](https://docs.google.com/presentation/d/1fE7-nOoyuoM_UTe4v-I7Vsrvtd1XgjYGy3O17S0AxRw/edit#slide=id.p)
