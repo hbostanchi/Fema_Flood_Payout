@@ -58,7 +58,8 @@
                          <h2></h2>
                          <li>                          
                         <label for="floodzone">Flood Zone</label>
-                        <input type="text" placeholder="X" id="floodzone" name="floodzone" value="{{ request.form['floodzone'] }}" required/>
+                        <input type="text" placeholder="X" id="floodzone" name="floodzone" />
+                        <!-- <input type="text" placeholder="X" id="floodzone" name="floodzone" value="{{ request.form['floodzone'] }}" required/> -->
                          </li>
                          <li>
                             <label for="occupancytype">Occupancy Type</label>
@@ -67,20 +68,20 @@
                          <li>
                            
                                 <label for="state">state</label>
-                                <input type="text" placeholder="CA" id="state" name="state" value="{{ request.form['state'] }}" required/>
+                                <input type="text" placeholder="CA" id="state" name="state"/>
                                  </li>
                              
                         <li>
                         <label for="zipcode"> Zip Code</label>
-                        <input type="text" placeholder="77079" id="zipcode" name="zipcode" value="{{ request.form['zipcode'] }} " required/>
+                        <input type="text" placeholder="77079" id="zipcode" name="zipcode" />
                         </li>
                         <li>
                         <label for="Lossmonth">Loss Month</label>
-                        <input type="text" placeholder="2" id="Lossmonth" name="Lossmonth" value="{{ request.form['Lossmonth'] }}" required/>
+                        <input type="text" placeholder="2" id="Lossmonth" name="Lossmonth"/>
                         </li>    
                         <li>
                         <label for="date">Built Year</label>
-                        <input type="text" placeholder="2010" id="datetime" name="datetime" value="{{ request.form['datetime'] }}" required/>
+                        <input type="text" placeholder="2010" id="datetime" name="datetime" />
                         </li>
                         </li>
                         <input type="submit" value="Submit" me>
@@ -132,3 +133,5 @@
 </body>
 
 </html>
+
+
